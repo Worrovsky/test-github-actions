@@ -22,6 +22,8 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          Hello from Github!
 
 #     - name: Telegram Notify
 #       uses: appleboy/telegram-action@0.0.3
